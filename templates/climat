@@ -29,7 +29,6 @@
           chart.draw(dataTable, options);
         }
 
-        // Récupération de données depuis notre API /climat/
         fetch('/climat/')
           .then(response => response.json())
           .then(data => {
