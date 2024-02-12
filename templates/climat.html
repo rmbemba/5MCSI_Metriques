@@ -29,7 +29,7 @@
           chart.draw(dataTable, options);
         }
 
-        fetch('/climat/')
+        fetch('/meteo/')
           .then(response => response.json())
           .then(data => {
             drawChart(data);
