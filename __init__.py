@@ -11,9 +11,9 @@ app = Flask(__name__)
 def contact():
     return render_template("contact.html")
 
-@app.route("/climat/")
-def climat():
-    return render_template("climat.html")
+@app.route("/Histogramme/")
+def Histogramme():
+    return render_template("Histogramme.html")
                                                                                                                                        
 @app.route('/')
 def hello_world():
