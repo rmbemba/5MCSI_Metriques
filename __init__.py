@@ -10,6 +10,10 @@ app = Flask(__name__)
 @app.route("/contact/")
 def contact():
     return render_template("contact.html")
+
+@app.route("/climat/")
+def climat():
+    return render_template("climat.html")
                                                                                                                                        
 @app.route('/')
 def hello_world():
